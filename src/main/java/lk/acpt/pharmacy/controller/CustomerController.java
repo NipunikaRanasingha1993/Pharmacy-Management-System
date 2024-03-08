@@ -55,8 +55,7 @@ public class CustomerController {
          Customer customer = customerService.searchCustomerByName(customerName);
          return new ResponseEntity<>(customer,HttpStatus.OK);
 
-
-     }
+    }
 
 
 
